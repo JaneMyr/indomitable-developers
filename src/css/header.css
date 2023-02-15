@@ -1,0 +1,143 @@
+/* ------------HEADER----------- */
+
+.header {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
+position: absolute; 
+top: 0;
+left: 0;
+width: 100%;
+
+}
+  
+  .header-container {
+    display: flex;
+  }
+  
+  .header-logo {
+  font-family: 'FilmP3';
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.083;
+  letter-spacing: 0.3em;
+  margin-right: 52px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: var(--white);
+  }
+  
+  .navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+  
+  
+  
+  .navigation-adress {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--akzent-yellow);
+  margin-right: 6px;
+  }
+  
+  .navigation-restaurant-icon{
+    margin-right: 20px;
+  }
+  
+  /* Зміни оформлення для екранів 320px */
+  @media screen and (max-width:413px){
+   .header-logo {
+    margin-right: 15px;
+    font-size: 30px;
+   }
+    .header {
+    width: 100%;
+   }
+    .navigation-adress {
+      font-size: 13px;
+      
+    }
+  }
+  /* /Зміни оформлення для екранів 320px */
+  
+  
+  
+  
+  /* Приховування елементів  */
+  @media screen and (max-width:1279px) {
+    .header-tel {
+      display: none;
+    }
+  
+    .header-social {
+      display: none;
+    }
+  
+    .hero-adress {
+      display: none ;
+    }
+    
+  }
+  @media screen and (min-width: 1024px) {
+    .header-adress {
+      display: none;
+    }
+    
+  }
+  /* /Приховування елементів  */
+  
+  @media screen and (min-width:1024px) {
+    .header-logo {
+      font-size: 40px;
+      margin-right: 207px;
+      padding-top: 24px;
+      padding-bottom: 33px;
+      color: var(--white);
+      }
+  
+      .navigation-list {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+  
+      .navigation-adress {
+        font-size: 20px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        margin-right: 32px;
+        }
+      
+        .header-tel {
+          font-family: 'Montserrat';
+         font-style: normal;
+         font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        color: var(--white);
+        }
+  
+        .adress-tell {
+          display: flex;
+          justify-content: center;
+          border: 1px solid rgba(243, 198, 83, 0.7);
+          border-radius: 2px;
+          padding: 12px 12px 12px 8px;
+        }
+        
+        
+        .navigation-restaurant-icon{
+          margin-right: 4px ;
+        }
+        .navigation-hotel-icon {
+          margin-right: 4px;
+        }
+  }
