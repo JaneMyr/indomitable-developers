@@ -1,5 +1,5 @@
 /* ------------HEADER----------- */
-
+/* HEADER-MOBILE 414px+ */
 .header {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
 position: absolute; 
@@ -14,6 +14,7 @@ width: 100%;
   }
   
   .header-logo {
+    align-items: center;
   font-family: 'FilmP3';
   font-style: normal;
   font-size: 36px;
@@ -27,8 +28,8 @@ width: 100%;
   
   .navigation-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 16px;
   }
@@ -49,6 +50,8 @@ width: 100%;
   .navigation-restaurant-icon{
     margin-right: 20px;
   }
+
+  /* /HEADER-MOBILE 414px+ */
   
   /* Зміни оформлення для екранів 320px */
   @media screen and (max-width:413px){
@@ -92,18 +95,19 @@ width: 100%;
   }
   /* /Приховування елементів  */
   
+
+  /* ------HEADER TABLET 1024+ --------*/
   @media screen and (min-width:1024px) {
     .header-logo {
       font-size: 40px;
       margin-right: 207px;
       padding-top: 24px;
       padding-bottom: 33px;
-      color: var(--white);
       }
   
       .navigation-list {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 24px;
+        padding-bottom: 24px;
       }
   
       .navigation-adress {
@@ -130,10 +134,14 @@ width: 100%;
           justify-content: center;
           border: 1px solid rgba(243, 198, 83, 0.7);
           border-radius: 2px;
-          padding: 12px 12px 12px 8px;
+          padding: 8px 8px 8px 8px;
+          margin-right: 72px;
         }
-        
-        
+
+        .hotel-tell {
+          margin-right: 42px;
+        }
+
         .navigation-restaurant-icon{
           margin-right: 4px ;
         }
@@ -141,3 +149,26 @@ width: 100%;
           margin-right: 4px;
         }
   }
+
+  /* ------/HEADER TABLET 1024+ --------*/
+
+
+  /* ------/HEADER DESKTOP 1280+ --------*/
+
+  @media screen and (min-width:1024px) {
+  .header-logo{
+    margin-right: 135px;
+  }
+    .header-social {
+    display: flex;
+    justify-content: center ;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .hotel-tell {
+    margin-right: 141px;
+  }
+
+
+  }
+
