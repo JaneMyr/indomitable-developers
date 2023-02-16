@@ -12,7 +12,7 @@
 @import url('');
 @import url('');
 @import url('');
-@import url('');
+@import url(./header.css);
 @import url('');
 @import url('');
 @import url('');
@@ -49,6 +49,7 @@
 @import url('');
 @import url('');
 @import url(''); */
+@import url('./header.css');
 @import url('./modals.css');
 
 
@@ -81,4 +82,4 @@
 
 
 
-@import url(./header.css);
+
