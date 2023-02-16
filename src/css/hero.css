@@ -1,29 +1,48 @@
+
+
 .hero, .hero-hotel, .hero-restaurant {
-    text-align: center;
-    padding: 188px 0;
     max-width: 1280px;
-    margin: auto;
+    text-align: center;
+    
+  }
+
+  .hero-container {
+    padding-top: 181px;
+   
+    
   }
 
   .mimino-tittle {
-    font-family:'FilmP3';
+    font-family: 'FilmP3';
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
     line-height: 103px;
     letter-spacing: 0.3em;
     color: var(--white);
+    margin-bottom: 24px;
   }
 
   .hero-tittle2 {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 0.02em;
-color: var(--white);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    margin-bottom: 40px;
+    }
 
+  .hero-paragraph {
+    font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 37px;
+letter-spacing: 0.05em;
+color: var(--white);
+margin-bottom: 113px;
   }
 
   .hero-button {
@@ -38,6 +57,46 @@ color: var(--white);
     letter-spacing: 0.02em;
     padding: 14px 24px;
     color: #f3c653;
+    margin-bottom: 58px;
+  }
+
+  .hero-social-list {
+    display: flex;
+    gap: 21px;
+    
+  }
+
+  .hero-social-icon {
+    fill: rgba(243, 198, 83, 0.7);
+    margin-bottom: 20px;
+  }
+  
+  .hero-adress {
+   
+    right: 15px;
+    top: 64px;
+    display: flex;
+    text-align: start;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+  }
+
+  .hero-adress-icon {
+    fill: var(--akzent-yellow);
+    
+  }
+
+  .hero-adress-paragraph {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
   }
 
   @media screen and (max-width: 1023px) {
