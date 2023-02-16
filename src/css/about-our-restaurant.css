@@ -1,9 +1,9 @@
-.kitchen__container {
+.about-restaurant__container {
   position: relative;
   overflow: hidden;
 }
 
-.kitchen-logo__up-text {
+.about-restaurant-logo__up-text {
   font-weight: 400;
   color: #b4b4b4;
   font-size: 20px;
@@ -11,7 +11,7 @@
   margin-bottom: 12px;
 }
 
-.kitchen__logo {
+.about-restaurant__logo {
   font-family: 'Film P3';
   font-style: normal;
   font-weight: 700;
@@ -23,7 +23,7 @@
   text-transform: uppercase;
 }
 
-.kitchen-logo__down-text {
+.about-restaurant-logo__down-text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -33,12 +33,12 @@
   margin-bottom: 28px;
 }
 
-.kitchen__down-container {
+.about-restaurant__down-container {
   display: flex;
   align-items: center;
 }
 
-.kitchen__text {
+.about-restaurant__text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -48,11 +48,11 @@
   color: var(--brown);
 }
 
-.kitchen__gallery-container {
+.about-restaurant__gallery-container {
   display: flex;
 }
 
-.kitchen__sgv {
+.about-restaurant__sgv {
   display: flex;
   gap: 32px;
   margin-left: auto;
@@ -71,46 +71,46 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .kitchen__container {
+  .about-restaurant__container {
     padding-top: 120px;
     padding-bottom: 32px;
   }
 
-  .kitchen-logo__up-text {
+  .about-restaurant-logo__up-text {
     font-size: 32px;
     line-height: 37px;
   }
 
-  .kitchen__logo {
+  .about-restaurant__logo {
     font-size: 64px;
     line-height: 69px;
   }
 
-  .kitchen-logo__down-text {
+  .about-restaurant-logo__down-text {
     font-size: 16px;
     line-height: 20px;
     max-width: 518px;
   }
 
-  .kitchen__photo-container {
+  .about-restaurant__photo-container {
     position: absolute;
     top: -33px;
     right: 95px;
   }
 
-  .kitchen__down-container {
+  .about-restaurant__down-container {
     gap: 32px;
     margin-top: 162px;
     margin-bottom: 297px;
   }
 
-  .kitchen__text {
+  .about-restaurant__text {
     font-size: 16px;
     line-height: 20px;
     max-width: 312px;
   }
 
-  .kitchen__gallery-container {
+  .about-restaurant__gallery-container {
     position: absolute;
     gap: 40px;
     right: 15px;
@@ -118,90 +118,90 @@
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .kitchen__container {
+  .about-restaurant__container {
     padding-top: 120px;
     padding-bottom: 32px;
   }
 
-  .kitchen-logo__up-text {
+  .about-restaurant-logo__up-text {
     font-size: 32px;
     line-height: 37px;
     margin-bottom: 4px;
   }
 
-  .kitchen__logo {
+  .about-restaurant__logo {
     font-size: 64px;
     line-height: 69px;
     margin-bottom: 24px;
   }
 
-  .kitchen-logo__down-text {
+  .about-restaurant-logo__down-text {
     max-width: 439px;
     font-size: 16px;
     line-height: 20px;
   }
 
-  .kitchen__photo-container {
+  .about-restaurant__photo-container {
     position: absolute;
     top: -30px;
     right: 52px;
   }
 
-  .kitchen__down-container {
+  .about-restaurant__down-container {
     gap: 48px;
     margin-top: 142px;
   }
 
-  .kitchen__text {
+  .about-restaurant__text {
     max-width: 312px;
     font-size: 16px;
     line-height: 20px;
   }
 
-  .kitchen__gallery-container {
+  .about-restaurant__gallery-container {
     justify-content: flex-end;
     gap: 40px;
     margin-bottom: 32px;
   }
 }
 @media screen and (max-width: 1023px) {
-  .kitchen__container {
+  .about-restaurant__container {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
-  .kitchen-logo__down-text {
+  .about-restaurant-logo__down-text {
     max-width: 258px;
   }
 
-  .kitchen__photo-container {
+  .about-restaurant__photo-container {
     width: max-content;
     margin-left: auto;
     margin-top: 28px;
     margin-bottom: 32px;
   }
 
-  .kitchen__down-container {
+  .about-restaurant__down-container {
     gap: 20px;
     margin-bottom: 32px;
   }
 
-  .kitchen__down-container img {
+  .about-restaurant__down-container img {
     min-width: 200px;
   }
 
-  .kitchen__text {
+  .about-restaurant__text {
     max-width: 163px;
   }
 
-  .kitchen__gallery-container {
+  .about-restaurant__gallery-container {
     overflow: hidden;
     gap: 24px;
     padding-left: 70px;
     margin-bottom: 20px;
   }
 
-  .kitchen__gallery-container img {
+  .about-restaurant__gallery-container img {
     min-width: 245px;
   }
 }
