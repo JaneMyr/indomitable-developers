@@ -18,17 +18,10 @@
   visibility: visible;
 }
 
-a {
-  padding: 20px;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #414b52;
-  margin: 10px;
-  color: #fff;
-  border-radius: 3px;
-}
-
 .close-btn {
+  position: absolute;
+  right: 16px;
+  top: 16px;
   background-color: transparent;
   border: none;
 }
@@ -70,12 +63,6 @@ a {
 
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
-}
-
-.close-btn {
-  position: absolute;
-  right: 16px;
-  top: 16px;
 }
 
 .form-wrap {
