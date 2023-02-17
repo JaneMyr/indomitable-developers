@@ -230,6 +230,7 @@
   }
 
   .about-hotel__gallery-container {
+    width: calc(100% + 30px);
     overflow: hidden;
     position: absolute;
     left: -180px;

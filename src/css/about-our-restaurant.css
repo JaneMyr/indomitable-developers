@@ -222,6 +222,7 @@
   }
 
   .about-restaurant__gallery-container {
+    width: calc(100% + 30px);
     overflow: hidden;
     gap: 24px;
     padding-left: 70px;
