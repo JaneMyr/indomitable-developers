@@ -1,15 +1,15 @@
-
+/* -------------DEFAULT STYLE HERO--------- */
 
 .hero, .hero-hotel, .hero-restaurant {
-    max-width: 1280px;
     text-align: center;
-    
+   max-width: 1280px;
+   margin-left: auto;
+   margin-right: auto;
+   
   }
 
   .hero-container {
     padding-top: 181px;
-   
-    
   }
 
   .mimino-tittle {
@@ -21,6 +21,7 @@
     letter-spacing: 0.3em;
     color: var(--white);
     margin-bottom: 24px;
+    
   }
 
   .hero-tittle2 {
@@ -57,7 +58,6 @@ margin-bottom: 113px;
     letter-spacing: 0.02em;
     padding: 14px 24px;
     color: #f3c653;
-    margin-bottom: 58px;
   }
 
   .hero-social-list {
@@ -68,25 +68,26 @@ margin-bottom: 113px;
 
   .hero-social-icon {
     fill: rgba(243, 198, 83, 0.7);
-    margin-bottom: 20px;
+    
+    
   }
   
   .hero-adress {
-   
-    right: 15px;
-    top: 64px;
     display: flex;
     text-align: start;
+    align-items: center;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 8px;
+    padding-left: 8px;
+    
   }
 
   .hero-adress-icon {
     fill: var(--akzent-yellow);
-    
+    margin-right: 10px;
   }
 
   .hero-adress-paragraph {
@@ -98,6 +99,79 @@ margin-bottom: 113px;
     letter-spacing: 0.01em;
     color: #E5E5E5;
   }
+  /* -------------/DEFAULT STYLE HERO--------- */
+
+/* ---------------HOMEPAGE STYLE HERO------------- */
+@media screen and (max-width: 1023px) {
+  .hero-container {
+    position: relative;
+    
+  }
+  .hero-button {
+    margin-bottom: 58px;
+  }
+
+  .hero-social-item {
+    margin-bottom: 20px;
+  }
+
+  .hero-adress {
+    position: absolute;
+    z-index: 3;
+      right: 15px;
+      top: 64px;
+    }
+    .hero-adress-paragraph {
+      font-size: 16px;
+      line-height: 20px
+    }
+
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-container {
+    padding-top: 188px;
+  }
+  .hero-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .mimino-tittle {
+    margin-bottom: 16px;
+    font-size: 128px;
+    line-height: 138px;
+  }
+
+  .hero-tittle2 {
+    margin-bottom: 56px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero-adress {
+    margin-right: 137px;
+  }
+  .hero-paragraph {
+    margin-bottom: 137px;
+    font-size: 36px;
+line-height: 41px;
+  }
+
+  .hero-list-item:last-child {
+    margin-left: 40px;
+  }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  
+}
+
+
 
   @media screen and (max-width: 1023px) {
     .hero {
@@ -156,3 +230,4 @@ margin-bottom: 113px;
       rgba(0, 0, 0, 0.65)),url(../img/desktop/hero/hero-homepagex2.jpg);
     }
   }
+  /* ---------------HOMEPAGE STYLE HERO------------- */
