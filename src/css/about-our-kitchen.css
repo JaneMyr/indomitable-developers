@@ -1,31 +1,20 @@
-.kitchen__container {
+.about-kitchen__container {
   position: relative;
   overflow: hidden;
   background: #fffdee;
   border: 1px solid #000000;
 }
 
-.kitchen-logo__up-text {
-  font-weight: 400;
-  color: #b4b4b4;
-  font-size: 20px;
-  line-height: 23px;
+.about-kitchen__container .pre-section-title {
   margin-bottom: 12px;
 }
 
-.kitchen__logo {
-  font-family: 'Film P3';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 43px;
-  letter-spacing: 0.3em;
-  color: var(--mimino);
+.about-kitchen__container .section-title {
   margin-bottom: 12px;
   text-transform: uppercase;
 }
 
-.kitchen-logo__down-text {
+.about-kitchen__container .after-section-title {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -78,19 +67,7 @@
     padding-bottom: 32px;
   }
 
-  .kitchen-logo__up-text {
-    font-size: 32px;
-    line-height: 37px;
-  }
-
-  .kitchen__logo {
-    font-size: 64px;
-    line-height: 69px;
-  }
-
-  .kitchen-logo__down-text {
-    font-size: 16px;
-    line-height: 20px;
+  .about-kitchen__container .after-section-title {
     max-width: 518px;
   }
 
@@ -135,21 +112,15 @@
     padding-bottom: 32px;
   }
 
-  .kitchen-logo__up-text {
-    font-size: 32px;
-    line-height: 37px;
+  .about-kitchen__container .pre-section-title {
     margin-bottom: 4px;
   }
 
-  .kitchen__logo {
-    font-size: 64px;
-    line-height: 69px;
+  .about-kitchen__container .section-title {
     margin-bottom: 24px;
   }
 
-  .kitchen-logo__down-text {
-    max-width: 439px;
-    font-size: 16px;
+  .about-kitchen__container .after-section-title {
     line-height: 20px;
   }
 
@@ -194,7 +165,7 @@
     padding-bottom: 16px;
   }
 
-  .kitchen-logo__down-text {
+  .about-kitchen__container .after-section-title {
     max-width: 258px;
   }
 

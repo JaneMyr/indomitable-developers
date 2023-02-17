@@ -5,33 +5,16 @@
   border: 1px solid #000000;
 }
 
-.about-restaurant-logo__up-text {
-  font-weight: 400;
-  color: #b4b4b4;
-  font-size: 20px;
-  line-height: 23px;
+.about-hotel__container .pre-section-title {
   margin-bottom: 12px;
 }
 
-.about-restaurant__logo {
-  font-family: 'Film P3';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 43px;
-  letter-spacing: 0.3em;
-  color: var(--mimino);
+.about-hotel__container .section-title {
   margin-bottom: 12px;
   text-transform: uppercase;
 }
 
-.about-restaurant-logo__down-text {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.02em;
+.about-hotel__container .after-section-title {
   margin-bottom: 28px;
 }
 
@@ -78,19 +61,12 @@
     padding-bottom: 50px;
   }
 
-  .about-restaurant-logo__up-text {
-    font-size: 32px;
-    line-height: 37px;
-  }
-
   .about-restaurant__logo {
     font-size: 64px;
     line-height: 69px;
   }
 
-  .about-restaurant-logo__down-text {
-    font-size: 16px;
-    line-height: 20px;
+  .about-hotel__container .after-section-title {
     max-width: 518px;
   }
 
@@ -135,19 +111,17 @@
     padding-bottom: 32px;
   }
 
-  .about-restaurant-logo__up-text {
-    font-size: 32px;
-    line-height: 37px;
+  .about-hotel__container .pre-section-title {
     margin-bottom: 4px;
   }
 
-  .about-restaurant__logo {
+  .about-hotel__container .section-title {
     font-size: 64px;
     line-height: 69px;
     margin-bottom: 24px;
   }
 
-  .about-restaurant-logo__down-text {
+  .about-hotel__container .after-section-title {
     max-width: 439px;
     font-size: 16px;
     line-height: 20px;
@@ -195,7 +169,7 @@
     padding-bottom: 16px;
   }
 
-  .about-restaurant-logo__down-text {
+  .about-hotel__container .after-section-title {
     max-width: 258px;
   }
 
