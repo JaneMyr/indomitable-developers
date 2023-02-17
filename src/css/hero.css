@@ -137,16 +137,17 @@ border: 2px solid #F3C653;
 @media screen and (min-width: 1024px) {
   .hero-container {
     padding-top: 188px;
+
   }
 
   .hero-list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
   }
 
   .hero-social-item {
     margin-bottom: 15px;
+    margin-top: 25px;
   }
   
   .mimino-tittle {
