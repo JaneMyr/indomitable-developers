@@ -4,13 +4,21 @@
     padding-bottom: 32px;
 }
 
-.contacts-wrap {}
+.contacts-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
 .contacts-left {}
 
-.contacts-logo {}
+.contacts-logo {
+    margin-bottom: 16px;
+}
 
 .contacts-logo-text {
+    display: inline-block;
+    margin-bottom: 12px;
     font-family: 'FilmP3';
     font-style: normal;
     font-weight: 700;
@@ -20,30 +28,199 @@
     color: #494848;
 }
 
-.contacts-logo-title {}
+.contacts-logo-title {
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
 
-.contacts-restaurant {}
+.contacts-restaurant {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 16px;
+    align-items: center;
+}
 
-.contacts-restaurant-text {}
+.contacts-restaurant-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
 
-.contacts-tel-icon {}
+.contacts-tel-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+    padding: 9px 8px 7px 8px;
+    background: #FFFFFF;
+    border: 0.5px solid #F3C653;
+    border-radius: 2px;
+}
 
-.contacts-restaurant-tel {}
+.contacts-tel-icon {
+    fill: #C79002;
+}
 
-.contacts-hotel {}
+.contacts-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #494848;
+}
 
-.contacts-hotel-text {}
+.contacts-hotel {
+    display: flex;
+    gap: 57px;
+    align-items: center;
+    margin-bottom: 16px;
+}
 
-.contacts-hotel-tel-wrap {}
+.contacts-hotel-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
+
+.contacts-hotel-tel-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-items: center;
+    padding: 9px 4px 7px 8px;
+    background: #FFFFFF;
+    border: 0.5px solid #F3C653;
+    border-radius: 2px;
+
+}
 
 .contacts-hotel-tel {}
 
-.contacts-address {}
+.contacts-address {
+    margin-left: auto;
+    max-width: 260px;
+    padding: 8px 33px 7px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 0.5px solid #F3C653;
+    border-radius: 2px;
 
-.contacts-address-icon {}
+}
 
-.contacts-address-text {}
+.contacts-address-icon {
+    fill: #C79002;
+}
+
+.contacts-address-text {
+    width: 183px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #494848;
+}
 
 .contacts-right {}
 
-.contacts-map {}
+.contacts-map {
+    border: 1px solid #BABABA;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+
+/* Tablet */
+
+@media screen and (min-width:1024px) {
+
+    .contacts {
+        padding-top: 56px;
+        padding-bottom: 40px;
+    }
+
+    .contacts-wrap {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contacts-logo {
+        margin-bottom: 52px;
+    }
+
+    .contacts-logo-text {
+        font-size: 64px;
+        line-height: 69px;
+        margin-bottom: 8px;
+    }
+
+    .contacts-restaurant {
+        gap: 8px;
+        margin-bottom: 24px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .contacts-hotel {
+        gap: 8px;
+        margin-bottom: 48px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .contacts-address {
+        margin-left: 0;
+        max-width: 285px;
+    }
+
+    .contacts-address-text {
+        width: 233px;
+    }
+
+    .contacts-right {
+        padding-top: 13px;
+    }
+
+
+}
+
+/* Desktop */
+
+@media screen and (min-width:1280px) {
+    .contacts {
+        padding-bottom: 73px;
+    }
+
+    .contacts-logo {
+        margin-bottom: 40px;
+    }
+
+    .contacts-logo-text {
+        margin-bottom: 16px;
+    }
+
+    .contacts-logo-title {
+        font-size: 20px;
+    }
+
+    .contacts-tel {
+        color: #828282;
+    }
+
+    .contacts-address-text {
+        color: #828282;
+    }
+
+    .contacts-right {
+        padding-top: 0;
+    }
+
+}
