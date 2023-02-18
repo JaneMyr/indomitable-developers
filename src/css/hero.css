@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
-  line-height: 103px;
+  line-height: 1.073;
   letter-spacing: 0.3em;
   color: var(--white);
   margin-bottom: 24px;
@@ -27,11 +27,10 @@
 }
 
 .hero-tittle2 {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 40px;
@@ -42,7 +41,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 37px;
+  line-height: 1.16;
   letter-spacing: 0.05em;
   color: var(--white);
   margin-bottom: 113px;
@@ -59,11 +58,11 @@
   line-height: calc(20 / 16);
   letter-spacing: 0.02em;
   padding: 14px 24px;
-  color: #f3c653;
+  color: var(--akzent-yellow);
 }
 
 .hero-button:hover, .hero-button:focus {
-  background-color: #FFFFFF;
+  background-color: var(--white);
 border: 2px solid #F3C653;
 }
 
@@ -101,7 +100,7 @@ border: 2px solid #F3C653;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 15px;
+  line-height: calc(15 / 12);
   letter-spacing: 0.01em;
   color: #E5E5E5;
 }
@@ -156,18 +155,18 @@ border: 2px solid #F3C653;
   .mimino-tittle {
     margin-bottom: 16px;
     font-size: 128px;
-    line-height: 138px;
+    line-height: calc(138 / 128);
   }
 
   .hero-tittle2 {
     margin-bottom: 56px;
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24 / 20);
   }
 
   .hero-adress-paragraph {
     font-size: 16px;
-    line-height: 20px
+    line-height: calc(20 / 16);
   }
 
   .hero-adress {
@@ -177,7 +176,7 @@ border: 2px solid #F3C653;
   .hero-paragraph {
     margin-bottom: 137px;
     font-size: 36px;
-    line-height: 41px;
+    line-height: calc(41 / 36);
   }
 
   .hero-list-item:last-child {
@@ -204,7 +203,7 @@ border: 2px solid #F3C653;
 
   .hero-tittle2 {
     font-size: 20px;
-    line-height: 24px;
+    line-height: calc(24 / 20);
     margin-bottom: 64px;
   }
 
@@ -279,6 +278,6 @@ screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   }
 }
 
-/* ---------------HOMEPAGE STYLE HERO------------- */
+/* ---------------/HOMEPAGE STYLE HERO------------- */
 
 

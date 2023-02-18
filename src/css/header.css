@@ -140,7 +140,7 @@ z-index: 3;
          font-style: normal;
          font-weight: 400;
         font-size: 14px;
-        line-height: 17px;
+        line-height: calc(17 / 14);
         display: flex;
         align-items: center;
         letter-spacing: 0.02em;
