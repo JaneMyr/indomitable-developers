@@ -1,0 +1,78 @@
+/* -----------HERO RESTAURANT STYLE--------- */
+
+.hero-restaurant-tittle {
+  margin-bottom: 20px;
+}
+
+.hero-restaurant-tittle2 {
+  margin-bottom: 44px;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .hero-restaurant-tittle {
+    margin-bottom: 16px;
+  }
+
+  .hero-restaurant-tittle2 {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .hero-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)), url(../img/mobile/hero/hero-restaurantx1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+  .hero-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)), url(../img/mobile/hero/hero-restaurantx2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)), url(../img/tablet/hero/hero-restaurantx1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1024px) and (min-resolution: 192dpi),
+screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+  .hero-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)), url(../img/tablet/hero/hero-restaurantx2.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)), url(../img/desktop/hero/hero-restaurantx1.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1280px) and (min-resolution: 192dpi),
+screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)), url(../img/desktop/hero/hero-restaurantx2.jpg);
+  }
+}
