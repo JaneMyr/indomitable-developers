@@ -1,0 +1,396 @@
+.container {
+  position: relative;
+  height: 100%;
+}
+.room {
+  margin: auto;
+  background-color: #000000;
+  width: 100%;
+  height: 740px;
+  background-image: url('../img/mobile/hero/hero-bedx1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-position: 33% 0; */
+  /* background-position: -220px 0px;   */
+}
+
+/* .room__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+
+.slider__list {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  width: calc(100% - 2 * 15px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.65);
+  fill: #F3C653;
+}
+
+.room-address {
+  position: absolute;
+  top: 65px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  width: 210px;
+  height: 47px;
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+  z-index: 99;
+}
+
+.room-address__link {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-address__icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  fill: #F3C653;
+}
+
+.room-addres__text {
+  /* font-family: 'Montserrat'; */
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #E5E5E5;
+}
+
+.room__thumb {
+  position: absolute;
+  left: 15px;
+  bottom: 118px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.room-hero__title {
+  width: 325px;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.143;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.room__title--small {
+  text-transform: none;
+}
+
+.room-hero__text {
+  width: 325px;
+  /* font-family: 'Montserrat'; */
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero-socials__list {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  width: 24px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero-social__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: #F3C653;
+}
+
+.room-hero__btn {
+  position: absolute;
+  left: 110px;
+  bottom: 40px;
+  width: 232px;
+  height: 48px;
+  padding: 14px 0;
+  /* border: 2px solid #FFFFFF; */
+  /* border-radius: 25px; */
+  background: rgba(0, 0, 0, 0.4);
+  /* color: #F3C653; */
+  /* font-family: 'Montserrat'; */
+  /* font-weight: 700; */
+  /* font-size: 16px; */
+  /* line-height: 1.25; */
+  /* letter-spacing: 0.02em; */
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+.room-hero__btn:hover,
+.room-hero__btn:focus {
+  border: 2px solid #F3C653;
+  background: #FFFFFF;
+}
+
+.amenities {
+  /* margin: auto;
+  width: 100vw; */
+  padding: 32px 0;
+}
+
+.amenities__title {
+  width: 100%;
+  margin-top: 32px;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.amenities__section-title {
+  font-size: 32px;
+  line-height: 1.156;
+}
+
+.amenites__text {
+  margin-top: 16px;
+  width: 100%;
+  /* font-family: 'Montserrat'; */
+  font-weight: 700;
+  /* font-size: 16px; */
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  /* color: var(--primary-color); */
+}
+
+.next {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  max-width: 414px;
+  width: 100%;
+}
+
+.booking-btn {
+  padding: 20px;
+  border: 1px solid #F3C653;
+  /* border-radius: 25px; */
+  background: #000000;
+  color: #FFFFFF;
+  /* font-family: 'Montserrat'; */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+.booking-btn:hover,
+.booking-btn:focus {
+  color: #000000;
+  background: #F3C653;
+}
+
+.return__link {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  color: #C79002;
+}
+
+.return__link:hover > .return__text,
+.return__link:focus > .return__text {
+  color: #F3C653;
+}
+
+.return__link:hover > .return__icon,
+.return__link:focus > .return__icon {
+  color: transparent;
+}
+
+.return__text {
+  /* font-family: 'Montserrat'; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: currentColor;
+}
+
+.return__icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  fill: currentColor;
+}
+
+@media screen and (max-width: 1023px) and (min-device-pixel-ratio: 2),
+screen and (max-width: 1023px) and (min-resolution: 192dpi),
+screen and (max-width: 1023px) and (min-resolution: 2dppx) {
+.room {
+    background-image: url('../img/mobile/hero/hero-bedx2.jpg');
+  }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1024px) and (min-resolution: 192dpi),
+screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+.room {
+    background-image: url('../img/tablet/hero/hero-bedx2.jpg');
+  }
+}  
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1280px) and (min-resolution: 192dpi),
+screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+.room {
+    background-image: url('../img/desktop/hero/hero-bedx2.jpg');
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .room {
+    height: 718px;
+    background-image: url('../img/mobile/hero/hero-bedx1.jpg');
+  }
+  .room-address {
+    top: calc(100% - 56px - 22px);
+    left: 15px;
+    width: 285px;
+    height: 56px;
+  }
+  .room-address__link {
+    gap: 10px;
+  }
+  .room-addres__text {
+    font-size: 16px;
+  }
+  .room__thumb {
+    bottom: 102px;
+    gap: 24px;
+  }
+  .room-hero__title {
+    font-size: 36px;
+  }
+  .room-hero__text {
+    width: 400px;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+  }
+  .hero-socials__list {
+    left: 340px;
+    bottom: 36px;
+    width: 112px;
+    height: 24px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .room-hero__btn {
+    left: calc(100% - 232px - 15px);
+    bottom: 62px;
+  }
+
+  .amenities {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .amenities__list {
+    margin-right: 50px;
+  }
+  .amenities__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .amenites__text {
+    width: 400px;
+  }
+  .amenities__section-text {
+    width: 757px;
+  }
+  .next {
+    margin-top: 40px;
+    margin-left: auto;
+    gap: 32px;
+    justify-content: end;
+    max-width: 435px;
+  }
+  .booking-btn {
+    padding: 18px;
+    font-size: 24px;
+    line-height: 1.2083;
+  }
+  .return__link {
+    gap: 16px;
+  }
+  .return__text {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .room {
+    height: 720px;
+    background-image: url('../img/desktop/hero/hero-bedx1.jpg');
+  }
+  .slider__list {
+    top: 60%;
+  }
+  .room-address {
+    display: none;
+  }
+  .room__thumb {
+    bottom: 48px;
+  }
+  .hero-socials__list {
+    left: calc(100% - 112px - 15px);
+    bottom: calc(100% - 24px - 38px);
+    z-index: 99;
+  }
+  .room-hero__btn {
+    bottom: 66px;
+  }
+
+  .amenities {
+    padding: 48px 0;
+  }
+  .amenities__list {
+    margin-right: 150px;
+  }
+  .next {
+    margin-left: 560px;
+  }
+}
