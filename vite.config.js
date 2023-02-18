@@ -6,12 +6,12 @@ import FullReload from 'vite-plugin-full-reload';
 export default defineConfig({
   root: 'src',
   build: {
-    rollupOptions: {
+    rollUpOptions: {
       input: {
         main: resolve(__dirname, 'src/index.html'),
-        second: resolve(__dirname, 'src/restaurant.html'),
-        third: resolve(__dirname, 'src/hotel.html'),
-        forth: resolve(__dirname, 'src/room.html'),
+        nested: resolve(__dirname, 'src/hotel.html'),
+        nested: resolve(__dirname, 'src/restaurant.html'),
+        nested: resolve(__dirname, 'src/room.html'),
       },
     },
     outDir: '../dist',
