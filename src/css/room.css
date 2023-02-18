@@ -70,9 +70,9 @@
 }
 
 .room-addres__text {
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-style: normal;
-  /* font-weight: 400; */
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.01em;
@@ -105,7 +105,7 @@
 
 .room-hero__text {
   width: 325px;
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
@@ -138,17 +138,17 @@
   width: 232px;
   height: 48px;
   padding: 14px 0;
-  /* border: 2px solid #FFFFFF; */
-  /* border-radius: 25px; */
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
   background: rgba(0, 0, 0, 0.4);
-  /* color: #F3C653; */
-  /* font-family: 'Montserrat'; */
-  /* font-weight: 700; */
-  /* font-size: 16px; */
-  /* line-height: 1.25; */
-  /* letter-spacing: 0.02em; */
+  color: #F3C653;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
   text-align: center;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .room-hero__btn:hover,
@@ -163,9 +163,12 @@
   padding: 32px 0;
 }
 
+.amenities__item {
+  margin-top: 32px;
+}
+
 .amenities__title {
   width: 100%;
-  margin-top: 32px;
   font-family: 'Times New Roman';
   font-weight: 700;
   font-size: 24px;
@@ -182,12 +185,12 @@
 .amenites__text {
   margin-top: 16px;
   width: 100%;
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-weight: 700;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  /* color: var(--primary-color); */
+  color: var(--primary-color);
 }
 
 .next {
@@ -203,16 +206,16 @@
 .booking-btn {
   padding: 20px;
   border: 1px solid #F3C653;
-  /* border-radius: 25px; */
+  border-radius: 25px;
   background: #000000;
   color: #FFFFFF;
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .booking-btn:hover,
@@ -240,7 +243,7 @@
 }
 
 .return__text {
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -255,28 +258,6 @@
   align-items: center;
   justify-content: center;
   fill: currentColor;
-}
-
-@media screen and (max-width: 1023px) and (min-device-pixel-ratio: 2),
-screen and (max-width: 1023px) and (min-resolution: 192dpi),
-screen and (max-width: 1023px) and (min-resolution: 2dppx) {
-.room {
-    background-image: url('../img/mobile/hero/hero-bedx2.jpg');
-  }
-}
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
-screen and (min-width: 1024px) and (min-resolution: 192dpi),
-screen and (min-width: 1024px) and (min-resolution: 2dppx) {
-.room {
-    background-image: url('../img/tablet/hero/hero-bedx2.jpg');
-  }
-}  
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
-screen and (min-width: 1280px) and (min-resolution: 192dpi),
-screen and (min-width: 1280px) and (min-resolution: 2dppx) {
-.room {
-    background-image: url('../img/desktop/hero/hero-bedx2.jpg');
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -391,5 +372,27 @@ screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   }
   .next {
     margin-left: 560px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-device-pixel-ratio: 2),
+screen and (max-width: 1023px) and (min-resolution: 192dpi),
+screen and (max-width: 1023px) and (min-resolution: 2dppx) {
+.room {
+    background-image: url('../img/mobile/hero/hero-bedx2.jpg');
+  }
+}
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1024px) and (min-resolution: 192dpi),
+screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+.room {
+    background-image: url('../img/tablet/hero/hero-bedx2.jpg');
+  }
+}  
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1280px) and (min-resolution: 192dpi),
+screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+.room {
+    background-image: url('../img/desktop/hero/hero-bedx2.jpg');
   }
 }
