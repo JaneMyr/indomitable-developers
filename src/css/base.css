@@ -1,9 +1,57 @@
-@font-face {
+/* @font-face {
   font-family: 'FilmP3';
   src: url('../fonts/FilmP3/FilmP3Bold.woff2') format('woff2'),
     url('../fonts/FilmP3/FilmP3Bold.woff') format('woff');
   font-weight: 700;
   font-style: bold;
+} */
+
+@font-face {
+  font-family: 'FilmP3';
+  src: url('../fonts/FilmP3Bold.woff') format('woff'),
+    url('../fonts/FilmP3Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: Bold;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../fonts/Montserrat-Bold.woff') format('woff'),
+    url('../fonts/Montserrat-Bold.ttf') format('ttf');
+  font-weight: 600;
+  font-style: Bold;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+    url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: SemiBold;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../fonts/Montserrat-Medium.woff') format('woff'),
+    url('../fonts/Montserrat-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: Medium;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: Regular;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../fonts/Montserrat-Light.woff') format('woff'),
+    url('../fonts/Montserrat-Light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: Light;
 }
 
 :root {
@@ -44,7 +92,7 @@ body {
 
 .container {
   width: 100%;
-  
+
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -93,7 +141,7 @@ body {
   .container {
     width: 414px;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
   }
 }
 
@@ -125,6 +173,3 @@ body {
     line-height: 1.25;
   }
 }
-
-
-
