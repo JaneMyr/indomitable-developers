@@ -2,15 +2,17 @@
 .hero,
 .hero-hotel,
 .hero-restaurant {
-  text-align: center;
+ text-align: center;
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  
 
 }
 
 .hero-container {
   padding-top: 181px;
+  
 }
 
 .mimino-tittle {
@@ -22,17 +24,25 @@
   letter-spacing: 0.3em;
   color: var(--white);
   margin-bottom: 24px;
+  text-transform: uppercase;
+ margin-left: auto;
+ margin-right: auto;
+  width: 404px;
+  
 
 }
+
 
 .hero-tittle2 {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.07em;
   color: var(--white);
   margin-bottom: 40px;
+  text-align: center;
+  
 }
 
 .hero-paragraph {
@@ -44,6 +54,7 @@
   letter-spacing: 0.05em;
   color: var(--white);
   margin-bottom: 113px;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -131,8 +142,19 @@ border: 2px solid #F3C653;
     top: 64px;
   }
 
+ 
 
 
+
+}
+
+@media screen and (max-width:413px) {
+  .mimino-tittle {
+  font-size: 93тpx;
+  width:290px
+
+  }
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -140,6 +162,9 @@ border: 2px solid #F3C653;
     padding-top: 188px;
 
   }
+  .mimino-tittle {
+    font-size: 128px;
+    }
 
   .hero-list {
     display: flex;
