@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/indomitable-developers/m.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="/indomitable-developers/assets/styles-e7b4df31.css">
   </head>
   <body>
-    <!-- ------------HEADER----------------- -->
+    <!-- --------------HEADER---------------- -->
 
     <header class="header">
   <div class="container header-container">
@@ -74,12 +75,13 @@
 </header>
 
 
-    <!-- --------------HERO---------------- --->
+    <main>
+      <!-- --------------HERO---------- -->
 
-      <section class="hero hero-homepage">
+      <section class="hero hero-restaurant">
   <div class="container hero-container">
-    <h1 class="mimino-tittle">Міміно</h1>
-    <h2 class="hero-tittle2">Ресторанно-готельний комплекс</h2>
+    <h1 class="mimino-tittle hero-restaurant-tittle">Міміно</h1>
+    <h2 class="hero-tittle2 hero-restaurant-tittle2">Ресторан</h2>
     <p class="hero-paragraph">Смак життя 24/7</p>
     <p></p>
     <ul class="hero-list">
@@ -100,9 +102,7 @@
         </button>
       </li>
       <li class="hero-list-item">
-        <button class="hero-button js-open-modal" type="button" data-modal="2">
-          Забронювати номер
-        </button>
+        <a href="#menu" class="hero-button" type="button">Переглянути меню</a>
       </li>
     </ul>
     <ul class="hero-social-list">
@@ -132,98 +132,253 @@
 </section>
 
 
-    <!-- ---------About our restaurant--------- -->
+      <!-- ---------About our kitchen ----------->
+
+      <div class="container kitchen__container">
+  <div class="kitchen__logo-article">
+    <p class="kitchen-logo__up-text">Amet minim mollit non</p>
+    <h3 class="kitchen__logo">Mimino</h3>
+    <p class="kitchen-logo__down-text">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+  </div>
+  <div class="kitchen__photo-container">
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/kitchenx1-53d63e46.webp 1x, /indomitable-developers/assets/kitchenx2-9d3c3963.webp 2x"
+        media="(min-width: 1280px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/kitchenx1-53d63e46.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/kitchenx1-a562ae59.jpg 1x, /indomitable-developers/assets/kitchenx2-239c1a71.jpg 2x"
+        media="(min-width: 1280px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/kitchenx1-a562ae59.jpg"
+      />
+      <img src="/indomitable-developers/assets/kitchenx1-a562ae59.jpg" alt="Kitchen" />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/kitchenx1-67204420.webp 1x, /indomitable-developers/assets/kitchenx2-5a7feaff.webp 2x"
+        media="(min-width: 1024px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/kitchenx1-67204420.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/kitchenx1-23469b7f.jpg 1x, /indomitable-developers/assets/kitchenx2-74f101c5.jpg 2x"
+        media="(min-width: 1024px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/kitchenx1-23469b7f.jpg"
+      />
+      <img src="/indomitable-developers/assets/kitchenx1-23469b7f.jpg" alt="Kitchen" />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/kitchenx1-f80a7a4a.webp 1x, /indomitable-developers/assets/kitchenx2-f9caa2ad.webp 2x"
+        media="(max-width: 1023px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/kitchenx1-f80a7a4a.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/kitchenx1-872e46ef.jpg 1x, /indomitable-developers/assets/kitchenx2-8fe11361.jpg 2x"
+        media="(max-width: 1023px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/kitchenx1-872e46ef.jpg"
+      />
+      <img src="/indomitable-developers/assets/kitchenx1-872e46ef.jpg" alt="Kitchen" />
+    </picture>
+  </div>
+  <div class="kitchen__down-container">
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/meatx1-70f15dcc.webp 1x, /indomitable-developers/assets/meatx2-c38a58c9.webp 2x"
+        media="(min-width: 1280px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/meatx1-70f15dcc.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/meatx1-54f45ffe.jpg 1x, /indomitable-developers/assets/meatx2-ed56b55a.jpg 2x"
+        media="(min-width: 1280px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/meatx1-54f45ffe.jpg"
+      />
+      <img src="/indomitable-developers/assets/meatx1-54f45ffe.jpg" alt="Meat" />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/meatx1-c4298435.webp 1x, /indomitable-developers/assets/meatx2-a905b090.webp 2x"
+        media="(min-width: 1024px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/meatx1-c4298435.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/meatx1-9ce2340d.jpg 1x, /indomitable-developers/assets/meatx2-4e96005e.jpg 2x"
+        media="(min-width: 1024px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/meatx1-9ce2340d.jpg"
+      />
+      <img src="/indomitable-developers/assets/meatx1-9ce2340d.jpg" alt="meat" />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/meatx1-7f6d0834.webp 1x, /indomitable-developers/assets/meatx2-594a8f6f.webp 2x"
+        media="(max-width: 1023px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/meatx1-7f6d0834.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/meatx1-7146b459.jpg 1x, /indomitable-developers/assets/meatx2-6b456daa.jpg 2x"
+        media="(max-width: 1023px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/meatx1-7146b459.jpg"
+      />
+      <img src="/indomitable-developers/assets/meatx1-7146b459.jpg" alt="Meat" />
+    </picture>
+
+    <p class="kitchen__text">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+  </div>
+  <div class="kitchen__gallery-container">
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/gallery-element1x1-23a62169.webp 1x, /indomitable-developers/assets/gallery-element1x2-7a232c28.webp 2x"
+        media="(min-width: 1280px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/gallery-element1x1-23a62169.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/gallery-element1x1-a0e4867b.jpg 1x, /indomitable-developers/assets/gallery-element1x2-4d5251a6.jpg 2x"
+        media="(min-width: 1280px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/gallery-element1x1-a0e4867b.jpg"
+      />
+      <img
+        src="/indomitable-developers/assets/gallery-element1x1-a0e4867b.jpg"
+        alt="Flower"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/gallery-element1x1-d174204f.webp 1x, /indomitable-developers/assets/gallery-element1x2-3d90e41f.webp 2x"
+        media="(min-width: 1024px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/gallery-element1x1-d174204f.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/gallery-element1x1-7ee6b725.jpg 1x, /indomitable-developers/assets/gallery-element1x2-53c3ffd0.jpg 2x"
+        media="(min-width: 1024px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/gallery-element1x1-7ee6b725.jpg"
+      />
+      <img
+        src="/indomitable-developers/assets/gallery-element1x1-7ee6b725.jpg"
+        alt="Flower"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/gallery-element1x1-923f83c8.webp 1x, /indomitable-developers/assets/gallery-element1x2-27fd167b.webp 2x"
+        media="(max-width: 1023px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/gallery-element1x1-923f83c8.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/gallery-element1x1-64ad6144.jpg 1x, /indomitable-developers/assets/gallery-element1x2-45a8b362.jpg 2x"
+        media="(max-width: 1023px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/gallery-element1x1-64ad6144.jpg"
+      />
+      <img
+        src="/indomitable-developers/assets/gallery-element1x1-64ad6144.jpg"
+        alt="Flower"
+      />
+    </picture>
+  </div>
+  <div class="kitchen__gallery-container">
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/gallery-element2x1-457f03ee.webp 1x, /indomitable-developers/assets/gallery-element2x2-edd728a9.webp 2x"
+        media="(min-width: 1280px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/gallery-element2x1-457f03ee.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/gallery-element2x1-dbb6f119.jpg 1x, /indomitable-developers/assets/gallery-element2x2-5dffd756.jpg 2x"
+        media="(min-width: 1280px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/gallery-element2x1-dbb6f119.jpg"
+      />
+      <img
+        src="/indomitable-developers/assets/gallery-element2x1-dbb6f119.jpg"
+        alt="Hinkali"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/gallery-element2x1-8ff03a36.webp 1x, /indomitable-developers/assets/gallery-element2x2-c188b1b5.webp 2x"
+        media="(min-width: 1024px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/gallery-element2x1-8ff03a36.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/gallery-element2x1-d5f57924.jpg 1x, /indomitable-developers/assets/gallery-element2x2-a465eb48.jpg 2x"
+        media="(min-width: 1024px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/gallery-element2x1-d5f57924.jpg"
+      />
+      <img
+        src="/indomitable-developers/assets/gallery-element2x1-d5f57924.jpg"
+        alt="Hinkali"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="/indomitable-developers/assets/gallery-element2x1-f39521e8.webp 1x, /indomitable-developers/assets/gallery-element2x2-1da0d95b.webp 2x"
+        media="(max-width: 1023px)"
+        type="image/webp"
+        src="/indomitable-developers/assets/gallery-element2x1-f39521e8.webp"
+      />
+      <source
+        srcset="/indomitable-developers/assets/gallery-element2x1-75dcb445.jpg 1x, /indomitable-developers/assets/gallery-element2x2-76a433e2.jpg 2x"
+        media="(max-width: 1023px)"
+        type="image/jpeg"
+        src="/indomitable-developers/assets/gallery-element2x1-75dcb445.jpg"
+      />
+      <img
+        src="/indomitable-developers/assets/gallery-element2x1-75dcb445.jpg"
+        alt="Hinkali"
+      />
+    </picture>
+  </div>
+  <div class="kitchen__sgv">
+    <button>
+      <svg width="32px" height="32px" class="kitchen__svg-icon">
+        <use href="/indomitable-developers/assets/sprite-8eccd605.svg#icon-left-arrow-small"></use>
+      </svg>
+    </button>
+    <button>
+      <svg width="32px" height="32px" class="kitchen__svg-icon">
+        <use href="/indomitable-developers/assets/sprite-8eccd605.svg#icon-right-arrow-small"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+
+
+      <!-- ------------MENU-------------- -->
+
+      <!-- EISDIR: illegal operation on a directory, read -->
+    </main>
+
+    <!-- ------------FOOTER------------ -->
 
     <!-- EISDIR: illegal operation on a directory, read -->
-
-    <!-- ---------Details of our restaurant--------- -->
-
-    <!-- EISDIR: illegal operation on a directory, read -->
-
-    <!------------ About our hotel------------ -->
-
-    <!-- EISDIR: illegal operation on a directory, read -->
-
-    <!-- ---------Details of our hotel ---------- -->
-
-    <!-- EISDIR: illegal operation on a directory, read -->
-
-    <!-- ---------------Contacts--------------- -->
-
-    <section class="contacts">
-    <div class="container">
-        <h1 class="visually-hidden">Section contacts</h1>
-        <div class="contacts-wrap">
-            <div class="contacts-left">
-                <div class="contacts-logo">
-                    <a class="contacts-logo-text" href="./index.html">MIMIHO</a>
-
-                    <p class="contacts-logo-title">Ресторанно-готельний комплекс</p>
-                </div>
-                <ul class="contacts-list">
-                    <li class="contacts-restaurant">
-                        <span class="contacts-restaurant-text">Ресторан</span>
-                        <div class="contacts-tel-wrap">
-                            <svg width="24px" height="24px" class="contacts-tel-icon">
-                                <use href="/indomitable-developers/assets/sprite-8eccd605.svg#icon-phone"></use>
-                            </svg>
-                            <a class="contacts-tel" href="tel:+380955559533">095 555 95 33</a>
-
-                        </div>
-                    </li>
-                    <li class="contacts-hotel">
-                        <span class="contacts-hotel-text">Готель</span>
-                        <div class="contacts-hotel-tel-wrap">
-                            <svg width="24px" height="24px" class="contacts-tel-icon">
-                                <use href="/indomitable-developers/assets/sprite-8eccd605.svg#icon-phone"></use>
-                            </svg>
-                            <div class="contacts-number-wrap">
-                                <a class="contacts-tel" href="tel:+380668491089">066 849 10 89</a>
-                                <a class="contacts-tel" href="tel:+380672758540">067 275 85 40</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <div class="contacts-address">
-                    <svg width="24px" height="24px" class="contacts-address-icon">
-                        <use href="/indomitable-developers/assets/sprite-8eccd605.svg#icon-location"></use>
-                    </svg>
-                    <a class="contacts-address-text" href="https://goo.gl/maps/Thj7MZooN1T6FweK6">
-                        <address>
-                            Україна, м.
-                            Полтава,
-                            вул. Маршала Бірюзова, 15
-                        </address>
-                    </a>
-                </div>
-            </div>
-            <div class="contacts-right">
-                <div class="contacts-map">
-                    <picture>
-                        <source srcset="/indomitable-developers/assets/mapx1-1ee560c3.webp 1x, /indomitable-developers/assets/mapx2-d06deeba.webp 2x" media="(min-width: 1280px)" type="image/webp" />
-                        <source srcset="/indomitable-developers/assets/mapx1-fe81d80f.png 1x, /indomitable-developers/assets/mapx2-be28be26.png 2x" media="(min-width: 1280px)" type="image/png" />
-                        <source srcset="/indomitable-developers/assets/mapx1-c15654db.webp 1x, /indomitable-developers/assets/mapx2-02e53168.webp 2x" media="(min-width: 1024px)" type="image/webp" />
-                        <source srcset="/indomitable-developers/assets/mapx1-9c08e817.png 1x, /indomitable-developers/assets/mapx2-11c5c451.png 2x" media="(min-width: 1024px)" type="image/png" />
-                        <source srcset="/indomitable-developers/assets/mapx1-d43125c7.webp 1x, /indomitable-developers/assets/mapx2-c139236b.webp 2x" media="(max-width: 1023px)" type="image/webp" />
-                        <source srcset="/indomitable-developers/assets/mapx1-97c9a249.png 1x, /indomitable-developers/assets/mapx2-f03109c9.png 2x" media="(max-width: 1023px)" type="image/png" />
-                        <img src="/indomitable-developers/assets/mapx1-97c9a249.png" alt="Map" />
-                    </picture>
-                </div>
-
-
-            </div>
-        </div>
-
-    </div>
-
-</section>
-    
-  </main>
-
-  <!-- ------------FOOTER------------ -->
-
-  <!-- EISDIR: illegal operation on a directory, read -->
-
 
     <!-- ------------MODAL------------ -->
 
@@ -444,4 +599,3 @@
     <script src="./js/modals.js"></script>
   </body>
 </html>
-
