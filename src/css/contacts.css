@@ -28,6 +28,8 @@
     color: #494848;
 }
 
+
+
 .contacts-logo-title {
     font-weight: 600;
     line-height: 20px;
@@ -121,12 +123,17 @@
 
 .contacts-address-text {
     width: 183px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.01em;
 
     color: #494848;
+}
+
+.address {
+    font-style: normal;
 }
 
 .contacts-right {}
