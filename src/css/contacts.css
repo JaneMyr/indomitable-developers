@@ -102,7 +102,10 @@
 
 }
 
-.contacts-hotel-tel {}
+.contacts-number-wrap {
+    display: flex;
+    flex-direction: column;
+}
 
 .contacts-address {
     margin-left: auto;
@@ -132,7 +135,7 @@
     color: #494848;
 }
 
-.address {
+.contacts-address-text address {
     font-style: normal;
 }
 
@@ -144,6 +147,19 @@
     border-radius: 2px;
 }
 
+/* Mobil */
+
+@media screen and (min-width:414px) {
+    .contacts-number-wrap {
+        flex-direction: row;
+        gap: 8px;
+    }
+}
+
+.contacts {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
 
 /* Tablet */
 
@@ -181,6 +197,10 @@
         margin-bottom: 48px;
         align-items: flex-start;
         flex-direction: column;
+    }
+
+    .contacts-number-wrap {
+        gap: 16px;
     }
 
     .contacts-address {
