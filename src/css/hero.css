@@ -69,6 +69,8 @@
   letter-spacing: 0.02em;
   padding: 14px 24px;
   color: var(--akzent-yellow);
+  
+  transition: var(--timing-function);
 }
 
 .hero-button:hover, .hero-button:focus {
