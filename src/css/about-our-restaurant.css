@@ -4,16 +4,16 @@
   background: #fffdee;
 }
 
-.about-hotel__container .pre-section-title {
+.about-restaurant__container .pre-section-title {
   margin-bottom: 12px;
 }
 
-.about-hotel__container .section-title {
+.about-restaurant__container .section-title {
   margin-bottom: 12px;
   text-transform: uppercase;
 }
 
-.about-hotel__container .after-section-title {
+.about-restaurant__container .after-section-title {
   margin-bottom: 28px;
 }
 
@@ -58,12 +58,15 @@
     padding-bottom: 50px;
   }
 
-  .about-restaurant__logo {
-    font-size: 64px;
-    line-height: 69px;
+  .about-restaurant__container .pre-section-title {
+    margin-bottom: 4px;
   }
 
-  .about-hotel__container .after-section-title {
+  .about-restaurant__container .section-title {
+    margin-bottom: 24px;
+  }
+
+  .about-restaurant__container .after-section-title {
     max-width: 518px;
   }
 
@@ -108,17 +111,17 @@
     padding-bottom: 32px;
   }
 
-  .about-hotel__container .pre-section-title {
+  .about-restaurant__container .pre-section-title {
     margin-bottom: 4px;
   }
 
-  .about-hotel__container .section-title {
+  .about-restaurant__container .section-title {
     font-size: 64px;
     line-height: 69px;
     margin-bottom: 24px;
   }
 
-  .about-hotel__container .after-section-title {
+  .about-restaurant__container .after-section-title {
     max-width: 439px;
     font-size: 16px;
     line-height: 20px;
@@ -137,7 +140,7 @@
     margin-bottom: 198px;
   }
 
-  .kitchen__down-container img {
+  .restaurant__down-container img {
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
 
@@ -166,7 +169,7 @@
     padding-bottom: 16px;
   }
 
-  .about-hotel__container .after-section-title {
+  .about-restaurant__container .after-section-title {
     max-width: 258px;
   }
 
@@ -181,6 +184,7 @@
   .about-restaurant__down-container {
     gap: 20px;
     margin-bottom: 32px;
+    margin-bottom: 297px;
   }
 
   .about-restaurant__down-container img {
@@ -193,11 +197,11 @@
   }
 
   .about-restaurant__gallery-container {
-    width: calc(100% + 30px);
     overflow: hidden;
+    position: absolute;
+    right: -180px;
+    bottom: 72px;
     gap: 24px;
-    padding-left: 70px;
-    margin-bottom: 20px;
   }
 
   .about-restaurant__gallery-container img {

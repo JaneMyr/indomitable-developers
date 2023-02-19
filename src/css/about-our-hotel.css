@@ -1,5 +1,6 @@
 .about-hotel__container {
   position: relative;
+  overflow: hidden;
   background: #fffdee;
 }
 
@@ -64,6 +65,14 @@
   .about-hotel__container {
     padding-top: 120px;
     padding-bottom: 50px;
+  }
+
+  .about-hotel__container .pre-section-title {
+    margin-bottom: 4px;
+  }
+
+  .about-hotel__container .section-title {
+    margin-bottom: 24px;
   }
 
   .about-hotel__container .after-section-title {
@@ -192,7 +201,6 @@
   }
 
   .about-hotel__gallery-container {
-    width: calc(100% + 30px);
     overflow: hidden;
     position: absolute;
     left: -180px;
