@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (key == 27) {
         document.querySelector('.modal.active').classList.remove('active');
         document.querySelector('.overlay').classList.remove('active');
+        document.body.classList.toggle('menu-open');
       }
     },
     false
@@ -81,4 +82,4 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.modal.active').classList.remove('active');
     this.classList.remove('active');
   });
-}); // end ready
+});
