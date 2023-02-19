@@ -30,7 +30,8 @@
   font-size: 36px;
   line-height: 1.083;
   letter-spacing: 0.3em;
-  margin-right: 46px;
+  text-transform: uppercase;
+  margin-right: 52px;
   padding-top: 16px;
   padding-bottom: 16px;
   color: var(--white);
@@ -41,10 +42,17 @@
   justify-content: center;
   padding-top: 28px;
   padding-bottom: 16px;
+  gap: 20px;
+}
+
+.navigation-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .navigation-adress {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -55,7 +63,6 @@
 }
 
 .navigation-restaurant-icon {
-  margin-right: 20px;
   fill: rgba(243, 198, 83, 0.7);
 }
 
@@ -120,6 +127,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
     align-items: center;
+    gap: 72px;
   }
 
   .navigation-adress {
@@ -148,9 +156,6 @@
     border-radius: 2px;
     padding: 8px 8px 8px 8px;
   }
-  .restaurant-tell {
-    margin-right: 60px;
-  }
   .navigation-restaurant-icon {
     margin-right: 4px;
   }
@@ -165,7 +170,7 @@
 
 @media screen and (min-width: 1280px) {
   .header-logo {
-    margin-right: 124px;
+    margin-right: 135px;
   }
   .header-social {
     display: flex;
@@ -175,7 +180,7 @@
     padding-bottom: 24px;
     gap: 21px;
   }
-  .hotell-tell {
+  .header-navigation {
     margin-right: 142px;
   }
 
