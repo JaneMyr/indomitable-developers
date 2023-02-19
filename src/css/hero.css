@@ -150,8 +150,12 @@ border: 2px solid #F3C653;
 
 @media screen and (max-width:413px) {
   .mimino-tittle {
-  font-size: 93тpx;
+  font-size: 93px;
   width:290px
+  }
+
+  .hero-paragraph {
+    font-size: 27px;
 
   }
   
